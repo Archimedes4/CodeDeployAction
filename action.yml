@@ -1,0 +1,9 @@
+name: 'Arch Code Deploy'
+description: 'Syncs a local server with code hosted on GitHub'
+inputs:
+  url:
+    description: "endpoint of server"
+    required: true
+runs:
+  using: 'node20'
+  main: 'index.js'
